@@ -6,9 +6,6 @@ const choiceBtn = document.querySelectorAll(".choiceBtn");
 let player;
 let computer;
 let result;
-// const rock = '&#x1F5FB;';
-// const paper = '&#128196;';
-// const scissors = '&#x2702;';
 
 
 
@@ -28,6 +25,7 @@ function computerTurn() {
 
     computer = computerChoices[randomNum];
 
+    // Another approach
 
     // switch (randomNum) {
     //     case 1:
